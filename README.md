@@ -1,8 +1,7 @@
 
 # Zero bullshit smart contract for beginners: Build a Vote System and get paid for it!   
 
-
-This is a baby-sistLet's get things done!  
+Let's get things done!  
 
 ## 1. Prerequisites
  1.1 [Installing the `Rust` toolchain](https://www.rust-lang.org/tools/install)  
@@ -149,8 +148,8 @@ Then you will get a enviorment variable ${CONTRACT_NAME} .Read more [details](ht
 #> near deploy --wasmFile res/${PROJECT_NAME}.wasm --accountId vote.$ID
 ```
 
-### 7. Usage  
-#### 7.1 set shell variable  
+## 7. Usage  
+### 7.1 set shell variable  
 ```shell
 export ID=${YOUR_NEAR_TESTNET_ACCOUNT_NAME};
 export CONTRACT_NAME=vote.lagosss.testnet #or change to you deployment address;
