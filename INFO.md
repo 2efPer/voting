@@ -26,7 +26,7 @@ In this case, We make create_pool method payable.You should remove `--amount 1` 
 
 ### 5 vote  
 ```shell
-$>near call $CONTRACT_NAME vote "{\"pool_id\":\"$POOL_ID_EXAMPLE\",\"option_id\":\"Vote-contract\"}" --accountId $ID  
+#>near call $CONTRACT_NAME vote "{\"pool_id\":\"$POOL_ID_EXAMPLE\",\"option_id\":\"Vote-contract\"}" --accountId $ID  
 ```  
  Tx address: https://explorer.testnet.near.org/transactions/GwwsgReKtUtZfF9k1eeNj16XYG12q9DyWFK3bQjLZeYw  
 
