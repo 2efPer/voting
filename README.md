@@ -172,7 +172,7 @@ near view $CONTRACT_NAME show_pools
 
 ```shell 
 export POOL_ID_EXAMPLE=8iq4YSooiWAiUoKVUY8eHtHE7LzswzpoQ1wD11TBjLwh;
-near view vote.$ID  show_pool "{\"pool_id\":\"${POOL_ID_EXAMPLE}\"}"
+near view $CONTRACT_NAME  show_pool "{\"pool_id\":\"${POOL_ID_EXAMPLE}\"}"
 ```  
 
 ### 7.5 vote  
